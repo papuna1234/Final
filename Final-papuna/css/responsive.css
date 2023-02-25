@@ -1,0 +1,180 @@
+
+@media screen and (max-width:848px){
+    .footer_text{
+        display: none;
+    }
+    .number{
+        font-size:1rem;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+
+  
+}
+@media screen and (max-width:1920px){
+    .card{
+        width: 40%;
+    }
+    .forma_1 label{
+        font-size: 1rem; 
+    }
+    .call, .email, .address {
+        gap: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .contact_logo{
+        font-size:1.8rem
+    }
+    .text {
+        font-size: 1.2rem; 
+    }
+    .number{
+        font-size:0.8rem;
+    }
+    .call, .email, .address {
+        gap: 15px;
+    }
+    .submit {
+        width: 46%;
+        height: 70px;
+    font-size: 1rem;
+    }
+}
+@media screen and (max-width:430px){
+    header{
+        width: 100%;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .text,
+    .number {
+        display:none;
+    }
+    .contact{
+        flex-direction: column;
+    }
+  .info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+ 
+  }
+  .email{
+    margin-top: 0px;
+  }
+  .forma {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forma_1{
+    flex-direction: column;
+    
+}
+.fullname,
+.email_address{
+    width:100%;
+}
+.fullname{
+    margin-bottom:42px ;
+}
+.submit{
+    font-size: 2rem;
+}
+.footer_logo{
+    display: none;
+}
+.footer_icons{
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.footer{
+    padding: 30px 100px;
+}
+.burger-bar{
+    display: inline-block;
+}
+nav,
+.fa-cart-shopping{
+    display: none;
+}
+}
+@media screen and (max-width:550px){
+    .submit{
+    font-size:1rem;
+}
+footer{
+    
+   padding-right: 0px;
+   padding-left: 0px;
+   
+}
+.footer_icons{
+    width: 320px;
+    margin:0 auto;
+}
+/* pirveli gverdi */
+.section_text{
+    font-size: 1.5rem;
+}
+/* artworks */
+.section1_div{
+    width: 80%;
+}
+.cards{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.card{
+    width: 80%;
+}
+.section1{
+ height: 60vh;
+}
+.section1_div {
+    width: 90%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+}
+.section1_text{
+    font-size:1rem;
+}
+.section1_title { 
+    font-size: 1.2rem;
+    margin-bottom: 18px;
+}
+}
